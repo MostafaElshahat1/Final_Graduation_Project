@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-with open("models/features.json", "r") as f:
+with open("Model/features.json", "r") as f:
     FEATURES_ORDER = json.load(f)["features"]
 
 def preprocess_input(inputs: dict) -> pd.DataFrame:

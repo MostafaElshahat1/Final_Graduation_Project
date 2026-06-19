@@ -2,7 +2,7 @@ import joblib
 from app.utils import preprocess_input, get_risk_level
 
 class ModelInference:
-    def __init__(self, model_path: str = "models/mental_health_model.pkl"):
+    def __init__(self, model_path: str = "Model/xgb_mental_health_new_model.pkl"):
         self.model = joblib.load(model_path)
 
     def predict_risk(self, raw_inputs: dict) -> dict:
