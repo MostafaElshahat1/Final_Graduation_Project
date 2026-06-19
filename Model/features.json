@@ -1,0 +1,7 @@
+{
+  "features": [
+    "PHQ_1", "PHQ_2", "PHQ_3", "PHQ_4", "PHQ_5", "PHQ_6", "PHQ_7", "PHQ_8",
+    "GAD_1", "GAD_2", "GAD_3", "GAD_4", "GAD_5", "GAD_6", "GAD_7",
+    "BL_1", "BL_2", "BL_5", "BL_9"
+  ]
+}
